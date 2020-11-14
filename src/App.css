@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.wrapper{
+  background: #F7F9F9;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  position: sticky;
+  top: 0;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+/*
+ .search{
+   margin-right: 60px; 
+   margin-left: -60px; 
+}*/
+/*
+.btn_area{
+   margin-right: 70px; 
+}*/
+
+.wrapper .logo img{
+  /* margin-left: 60px;  */
+  padding-top: 10px;
+}
+
+.search1{
+  width: 270px;
+  height: 48px;
+  border: 2px solid black;
+  margin-right: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-left: 10px;
+  color: #161715;
+}
+
+.search2{
+  width: 700px;
+  height: 48px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+
+.login{
+  color: #161715;
+  border: 0;
+  border-bottom: 2px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.sell{
+  width: 100px;
+  height: 45px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 5px solid black;
+}
+
+::placeholder{
+  font-size: 16px;
+  padding-left: 10px;
+}
+.bg_img{
+  width: 100%;
+  height: 260px;
+}
+.laptop_img{
+  padding: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+.boxes .box .details{
+  padding-left: 20px;
+}
+.boxes .box .details .price{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* .navbar{
+  display: flex;
+  justify-content: left;
+  padding: 5px 0;
+}
+.navbar ul{
+  text-decoration: none;
+  list-style-type: none;
+
+} */
+.navbar .nav{
+  font-size: 16px;
+  padding-left: 120px;
+  font-weight: bold;
+}
+.navbar{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+/* .navbar Nav > Nav.Link:hover{
+  color: #000;
+  text-decoration: none;
+
+} */
+.footer{
+  background-color: #F7F9F9;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+}
+.footer h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px 0;
+  color: #003035;
+}
+.footer ul li{
+  display: flex;
+  list-style-type: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer_col{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.boxes{
+  display: flex;
+  justify-content: center;
+  background-color: #F7F9F9;
+  /* width: 1250px; */
+  height: 350px;
+}
+
+.box{
+  width: 285px;
+  height: 265px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px;
+  background: #fff;
+}
+.copyright{
+  height: 50px;
+  background-color: #003035;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.mob_section{
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 70px;
+}
+
+/* .left_col{
+  width: 30%;
+} */
+.mob_section .right_col{
+  margin-left: 50px;
+}
+.mob_section .right_col .columns{
+   /* display: flex; */
+   /* flex-wrap: wrap; */
+   /* justify-content: space-evenly; */
+   /* width: 100%; */
+   /* padding-left: 140px;
+   padding-right: 120px; */
+   /* margin-bottom: 50px; */
+}
+/* .mob_section .right_col .columns  */
+.column{
+  width: 310px;
+  height: 260px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px;
+  background: #fff;
+
+}
+.mob_section .right_col .columns .column img{
+  object-fit: cover;
+  width: 100%;
+  padding: 10px 40px;
+  height: 150px;
+}
+.mob_section .right_col .columns .column .details{
+  padding-left: 20px;
+}
+
+.mob_section .right_col .columns .column .details .price{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.left_col{
+  /* margin-right: 50px; */
+  /* width: 100%; */
+  margin-bottom: 50px;
+}
+.left_col .col h4{
+  /* border-bottom: 1px solid black; */
+  padding-bottom: 8px;
+}
+.left_col .col h3{
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  border-top: 1px solid #000;
+}
+
+.left_col .col ul li{
+  list-style-type: none;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+.left_col .col input{
+  margin-right: 10px;
+}
+
+/* .mob_section .left_col .col .checkbox{
+  width: 50px;
+} */
+
+.left_col .col .limit{
+  width: 110px;
+  height: 40px;
+  margin-bottom: 10px;
+  background: #DFDFDF;
+  border: 0;
+  border-radius: 3px;
+}
